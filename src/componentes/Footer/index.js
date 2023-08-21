@@ -16,7 +16,7 @@ const Footer = ()=> {
 
             </a>
         </div>
-            <img src='/logo.png' alt='org'/>
+            <img src='/Logo.png' alt='org'/>
             <strong>Desarrollado por Fredy Cuastumal</strong>
     </footer>
 
