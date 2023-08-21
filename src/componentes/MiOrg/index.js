@@ -1,4 +1,4 @@
-import { useState } from "react"
+//import { useState } from "react"
 import"./MiOrg.css"
 
 const MiOrg = (props) => {
@@ -8,12 +8,13 @@ const MiOrg = (props) => {
 
     console.log(props)
     //const [nombre, actualizarNombre] = useState()
-    const [mostrar, actualizarMostrar] = useState(true)
+    //const [mostrar, actualizarMostrar] = useState(true)
     
-    const manejarClick = ()  => {
-        console.log("Mostrar/Ocultar elemento", !mostrar)
-        actualizarMostrar(!mostrar)
-    }
+    //const manejarClick = ()  => {
+      //  console.log("Mostrar/Ocultar elemento", !mostrar)
+      //  actualizarMostrar(!mostrar)
+   // }
+    
 
     return <section className="orgSection">
     <h3 className="tittle">Mi Organizacion </h3>
